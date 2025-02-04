@@ -34,6 +34,7 @@ export default function BudgetForm() {
           placeholder="Define tu presupuesto"
           name="budget"
           value={budget}
+          min={0}
           onChange={handleChange}
         />
       </div>
